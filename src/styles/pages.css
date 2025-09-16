@@ -1,0 +1,92 @@
+/* General page styles */
+
+/* Home */
+.home {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Hero section */
+.hero {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  text-align: center;
+  height: 850px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 40px; /* space from edges */
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* dark overlay */
+  z-index: 1;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 2;
+  text-align: left; /* align text left */
+  margin-left: 5%;
+  margin-bottom: 5%;
+  
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+}
+
+.hero-text p {
+  font-size: 2rem;
+}
+
+
+/* Mission section */
+.mission {
+  margin: 90px;      /* more breathing room */
+  
+  text-align: left;       
+  line-height: 1.2;       /* more readable spacing */
+  padding: 0 20px;
+  font-size: 1.25rem;     /* larger base font */
+  font-family: "Georgia", "Times New Roman", serif; 
+  color: #2c3e50;         
+}
+
+/* Inspector image section */
+.inspection-image img {
+  width: 100%;
+  max-height: 650px;
+  object-fit: cover;
+  margin: 20px 0;
+}
+
+/* Affiliations section */
+.affiliations {
+  text-align: center;
+  padding: 20px;
+}
+
+.affiliations h3 {
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.affiliations .logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.affiliations img {
+  max-height: 60px;
+}
+/* *******END HOME******* */
