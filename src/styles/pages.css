@@ -13,7 +13,7 @@
   align-items: flex-end;
   justify-content: flex-start;
   text-align: center;
-  height: 850px;
+  height: 880px;
   background-size: cover;
   background-position: center;
   color: white;
@@ -25,7 +25,7 @@
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* dark overlay */
+  background: rgba(0, 0, 0, 0.3); /* dark overlay */
   z-index: 1;
 }
 
@@ -49,10 +49,9 @@
 
 /* Mission section */
 .mission {
-  margin: 90px;      /* more breathing room */
-  
+  margin: 70px;      /* more breathing room */
   text-align: left;       
-  line-height: 1.2;       /* more readable spacing */
+  line-height: 1.6;       /* more readable spacing */
   padding: 0 20px;
   font-size: 1.25rem;     /* larger base font */
   font-family: "Georgia", "Times New Roman", serif; 
@@ -73,9 +72,13 @@
   padding: 20px;
 }
 
-.affiliations h3 {
-  margin-bottom: 20px;
-  font-size: 1.3rem;
+.affiliations h2 {
+  margin-bottom: 50px;
+  margin-top: 0%;
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #ea740d;
 }
 
 .affiliations .logos {
@@ -83,10 +86,136 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 10%;
 }
 
 .affiliations img {
-  max-height: 60px;
+  max-height: 100px;
 }
 /* *******END HOME******* */
+/* ABOUT PAGE */
+
+/* Hero */
+.about-hero {
+  position: relative;
+  height: 730px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.about-hero::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.about-hero-text {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.about-hero-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Company Info */
+.about-info {
+  margin: 70px;
+  text-align: left;
+  line-height: 1.6;
+  padding: 0 20px;
+  font-size: 1.25rem;
+  font-family: "Georgia", "Times New Roman", serif; 
+  color: #2c3e50;
+}
+
+/* We Offer Section */
+.we-offer {
+  background: #e7fae7;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.we-offer h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  margin-top: 0%;
+  color: #ea740d;
+}
+
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 30px;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 380px;
+}
+
+.offer-card {
+  background: #fff;
+  border-radius: 190px;
+  padding: 20px;
+  text-align: center;
+  height:320px;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth animation */
+  cursor: pointer; /* show it's interactive */
+}
+
+.offer-card:hover {
+  transform: translateY(-10px); /* move up */
+  box-shadow: 0 15px 20px rgba(0,0,0,0.2); /* stronger shadow */
+}
+
+.offer-card .icon {
+  font-size: 4.5rem;
+  color: #ea740d;
+  margin: 15px;
+}
+
+/* Highlight Section */
+.about-highlight {
+  display: flex;
+  align-items: stretch;   /* ensures both halves match height */
+  width: 100%;
+  min-height: 200px;
+  max-height: 450px;
+  background-color: #f4f9f2;
+}
+
+.highlight-text,
+.highlight-image {
+  flex: 1;              /* each side = 50% */
+  min-width: 50%;
+}
+
+.highlight-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.highlight-text p {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #e67e22;      
+  line-height: 2.2;
+  width: 100%;
+  padding: 12%;
+}
+
+.highlight-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;    /* fills the half perfectly */
+}

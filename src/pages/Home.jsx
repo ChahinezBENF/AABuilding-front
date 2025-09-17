@@ -2,7 +2,11 @@ import React from "react";
 import "../styles/pages.css";  
 import heroImage from "../assets/construction-hero.png";
 import inspectionImage from "../assets/inspection-worker.png";
-
+import aci from "../assets/aci.png";
+import icc from "../assets/icc.png";
+import nycb from "../assets/nycb.png";
+import nycdot from "../assets/nycdot.png";
+import nycep from "../assets/nycep.png";
 
 export default function Home() {
   return (
@@ -20,7 +24,7 @@ export default function Home() {
       {/* Mission Section */}
       <section className="mission">
         <p>
-          At AA Building, we specialize in delivering reliable and efficient
+          At AA Building & Inspection Services, LLC, we specialize in delivering reliable and efficient
           civil inspection services. Our mission is to ensure safety,
           compliance, and quality across every stage of infrastructure and
           construction projects.
@@ -44,13 +48,13 @@ export default function Home() {
 
       {/* Industry Affiliations */}
       <section className="affiliations">
-        <h3>Affiliated With Industry Establishments</h3>
+        <h2>Affiliated With Industry Establishments</h2>
         <div className="logos">
-          <img src="/nyc-buildings.png" alt="NYC Buildings" />
-          <img src="/nyc-dot.png" alt="NYC DOT" />
-          <img src="/nyc-dep.png" alt="NYC DEP" />
-          <img src="/icc.png" alt="ICC" />
-          <img src="/aci.png" alt="ACI" />
+          <img src={aci} alt="ACI" />
+          <img src={icc} alt="ICC" />
+          <img src={nycb} alt="NYC DEP" />
+          <img src={nycdot} alt="NYC DOT" />
+          <img src={nycep} alt="NYC EP" />
         </div>
       </section>
     </div>
