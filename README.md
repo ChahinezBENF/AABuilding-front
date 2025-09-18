@@ -24,7 +24,7 @@ The goal is to provide a professional, modern, and responsive online presence th
 
 Below is the wireframe representation of the project design:
 
-![Wireframe]( https://www.figma.com/proto/wnagYil3b771neKzPQYmtV/portal?node-id=5-3&p=f&t=oJA5lkBpqc7IBkse-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A3 )
+ https://www.figma.com/proto/nagYil3b771neKzPQYmtVportal?node-id=5-3&p=f&t=oJA5lkBpqc7IBkse-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A3
 
 ---
 
