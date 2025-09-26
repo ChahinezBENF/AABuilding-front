@@ -161,26 +161,69 @@
   height: 380px;
 }
 
-.offer-card {
+/* .offer-card {
   background: #fff;
   border-radius: 30px;
   padding: 20px;
   text-align: center;
   height:320px;
   box-shadow: 0 10px 10px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth animation */
-  cursor: pointer; /* show it's interactive */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  cursor: pointer; 
 }
 
 .offer-card:hover {
-  transform: translateY(-10px); /* move up */
-  box-shadow: 0 15px 20px rgba(0,0,0,0.2); /* stronger shadow */
+  transform: translateY(-10px); 
+  box-shadow: 0 15px 20px rgba(0,0,0,0.2); 
 }
 
 .offer-card .icon {
   font-size: 4.5rem;
   color: #ea740d;
   margin: 25px;
+} */
+
+
+.offer-card {
+  position: relative;
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px 10px;
+  text-align: center;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  cursor: pointer; 
+}
+
+.offer-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -90%;
+  width: 200%;
+  height: 50%;
+  background: #ea740d;
+  transform: rotate(-5deg);
+  z-index: 0;
+}
+
+.offer-card .icon,
+.offer-card p {
+  position: relative;
+  z-index: 1;
+  font-size: 1.4rem;
+}
+
+.offer-card .icon {
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 70px;
+}
+
+.offer-card:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 15px 20px rgba(0,0,0,0.2); 
 }
 
 /* Highlight Section */
@@ -275,18 +318,39 @@
 
 /* Services Grid Section */
 .services-grid-section {
-  background: #f9fafb;
+  background: rgba(154, 137, 122, 0.1);
   padding: 60px 20px;
 }
 
+
 .services-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
 }
 
+.service-card {
+  border: none;
+  position: relative;
+}
+
+.service-card::before {
+  content: "";
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+   background: conic-gradient( #ff9800, #40c15e, #808080,#ff9800 );
+  z-index: -1;
+  animation: spin 6s linear infinite;
+}
+
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}
+
+
+/* ///////// */
 
 
 /* Highlight Section */
