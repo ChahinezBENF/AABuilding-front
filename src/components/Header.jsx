@@ -20,17 +20,21 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+    const handleLinkClick = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <header className={`header ${scrolled ? "scrolled" : ""}`}>
       <div className="logo">
         <img src={logo} alt="Company Logo" />
       </div>
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/services">Services</Link>
-        <Link to="/work">Work</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/" onClick={handleLinkClick}>Home</Link>
+        <Link to="/about" onClick={handleLinkClick}>About</Link>
+        <Link to="/services" onClick={handleLinkClick}>Services</Link>
+        <Link to="/work" onClick={handleLinkClick}>Work</Link>
+        <Link to="/contact" onClick={handleLinkClick}>Contact</Link>
       </nav>
     </header>
   );
