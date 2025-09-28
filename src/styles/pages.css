@@ -543,7 +543,11 @@ font-size: 3rem;
   }
 
   .affiliations img {
-    max-height: 60px;        /* adjust size for small screens */
+    max-height: 40px;        /* adjust size for small screens */
     margin-bottom: 10px;     /* space between rows */
+  }
+
+  .affiliations h2{
+    font-size: 2rem;
   }
 }
