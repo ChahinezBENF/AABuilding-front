@@ -565,8 +565,8 @@ font-size: 3rem;
   }
 
   .service-card {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     padding: 15px;
     border-radius: 50%;
     display: flex;
@@ -584,7 +584,7 @@ font-size: 3rem;
 
   .service-card .icon {
     font-size: 2.5rem;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 
   .service-card h3 {
