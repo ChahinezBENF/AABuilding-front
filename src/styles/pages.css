@@ -555,32 +555,37 @@ font-size: 3rem;
     height: 350px; 
   }
 
+  /* //////// */
   .services-grid {
-    justify-content: center;
-    gap: 15px; /* smaller gap between cards */
+    display: flex;
+    flex-direction: column; /* stack cards vertically */
+    align-items: center;    /* center horizontally */
+    gap: 30px;              /* space between cards */
+    padding: 20px 10px;
   }
 
   .service-card {
-    width: 140px;       /* smaller diameter */
-    height: 140px;      /* smaller diameter */
-    padding: 10px;      /* reduce padding */
-    margin-bottom: 15px;
+    width: 180px;           /* circle width */
+    height: 180px;          /* circle height */
+    padding: 15px;
+    border-radius: 50%;     /* ensure perfect circle */
   }
 
   .service-card .icon {
-    font-size: 2rem;    /* smaller icon */
+    font-size: 2.5rem;
     margin-bottom: 20px;
   }
 
   .service-card h3 {
-    font-size: 1rem;    /* adjust title */
+    font-size: 1.2rem;
   }
 
   .service-card p {
-    font-size: 0.85rem; /* adjust text */
+    font-size: 1rem;
   }
 
   .service-card::before {
-    inset: -6px;         /* smaller spinning border */
+    inset: -8px;
   }
+
 }
