@@ -242,6 +242,7 @@
     flex-wrap: wrap;    /* allow wrapping if needed */
     justify-content: flex-start; /* align links to logo */
     margin-left: 10px;
+    padding-left: 10px;
   }
 
   .header nav a {
