@@ -245,6 +245,11 @@
   -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
 }
 
+.header nav {
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
   .header nav a {
     margin: 0 2px;   /* less margin */
     font-size: 0.65rem; /* smaller text */
