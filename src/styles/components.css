@@ -241,12 +241,12 @@
     justify-content: flex-end;
     align-items: center;
     margin: 0;
-    gap: 6px;      /* smaller spacing */
+    gap: 5px;      /* smaller spacing */
   }
 
   .header nav a {
     margin: 0 4px;   /* less margin */
-    font-size: 0.8rem; /* smaller text */
+    font-size: 0.7rem; /* smaller text */
   }
 
   .footer {
