@@ -241,13 +241,15 @@
     justify-content: flex-start;
     align-items: center;
     margin: 0;
-    gap: 2px;      /* smaller spacing */
+    gap: 2px;      /* spacing between links */
+    margin-left: 5px;  /* move nav closer to logo */
+    
   }
 
- .header nav {
-  flex-wrap: wrap;
-  gap: 4px;
-}
+  .header nav a {
+    margin: 0 2px;   /* less margin */
+    font-size: 0.65rem; /* smaller text */
+  }
 
   .footer {
     flex-direction: column;
