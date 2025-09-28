@@ -244,10 +244,10 @@
     gap: 2px;      /* smaller spacing */
   }
 
-  .header nav a {
-    margin: 0 2px;   /* less margin */
-    font-size: 0.65rem; /* smaller text */
-  }
+ .header nav {
+  flex-wrap: wrap;
+  gap: 4px;
+}
 
   .footer {
     flex-direction: column;
