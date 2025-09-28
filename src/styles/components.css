@@ -230,7 +230,7 @@
   }
 
   .header .logo img {
-    height: 35px;   
+    height: 35px;   /* smaller logo */
     margin-right: 10px; /* space between logo and nav */
   }
 
@@ -245,7 +245,7 @@
   }
 
   .header nav a {
-    font-size: 0.7rem; /* smaller text */
+    font-size: 0.70rem; /* smaller text */
     margin: 0;           /* no extra margin */
     white-space: nowrap; /* prevent wrapping of each link */
   }
