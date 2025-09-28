@@ -297,7 +297,7 @@
 
 /* Services Grid Section */
 .services-grid-section {
-  background: rgba(247, 187, 134, 0.1);
+  background: rgba(247, 149, 64, 0.1);
   padding: 60px 20px;
   
 }
@@ -321,7 +321,7 @@
   position: absolute;
   inset: -8px;
   border-radius: 50%;
-   background: conic-gradient( #ff9800, #40c15e, #808080,#ff9800 );
+   background: conic-gradient( #ff990093, #40c15e9c, #8080808d,#ff990088 );
   z-index: -1;
   animation: spin 6s linear infinite;
 }
@@ -584,7 +584,7 @@ font-size: 3rem;
 
   .service-card .icon {
     font-size: 2.5rem;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
   }
 
   .service-card h3 {
