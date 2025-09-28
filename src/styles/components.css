@@ -191,9 +191,9 @@
     padding: 10px 20px;
   }
 
-   .header nav a {
-    font-size: 1rem;  /* slightly smaller */
-    margin: 8px;
+  .header nav a {
+    font-size: 1.2rem;
+    margin: 10px;
   }
 
   .footer {
@@ -223,33 +223,35 @@
 /* Mobile screens (≤768px) */
 @media (max-width: 768px) {
    .header {
-    flex-direction: row;
-    justify-content: flex-start; /* all items start from left */
+    flex-direction: row;          /* force row */
+    justify-content: space-between; 
     align-items: center;
-    padding: 8px 10px;           /* reduce padding */
+    padding: 10px 20px;
+  }
+
+  .header .logo {
+    flex: 0 0 auto;              /* stay left */
   }
 
   .header .logo img {
-    height: 35px;   /* smaller logo */
-    margin-right: 10px; /* space between logo and nav */
+    height: 40px; 
+     margin-right: 10px;
   }
 
   .header nav {
+    flex: 1 0 auto;              /* stay right */
     display: flex;
-    flex-direction: row;
+    flex-direction: row;         /* horizontal links */
+    justify-content: flex-end;
     align-items: center;
-    gap: 5px;          /* smaller spacing between links */
-    flex-wrap: wrap;    /* allow wrapping if needed */
-    justify-content: flex-start; /* align links to logo */
     margin: 0;
+    width: auto;
   }
 
   .header nav a {
-    font-size: 0.70rem; /* smaller text */
-    margin: 0;           /* no extra margin */
-    white-space: nowrap; /* prevent wrapping of each link */
+    margin: 0 10px;              /* spacing between links */
+    font-size: 1rem;
   }
-
 
   .footer {
     flex-direction: column;
