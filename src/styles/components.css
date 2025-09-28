@@ -238,14 +238,14 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 5px;          /* smaller spacing between links */
+    gap: 4px;          /* smaller spacing between links */
     flex-wrap: wrap;    /* allow wrapping if needed */
     justify-content: flex-start; /* align links to logo */
     margin: 0;
   }
 
   .header nav a {
-    font-size: 0.75rem; /* smaller text */
+    font-size: 0.65rem; /* smaller text */
     margin: 0;           /* no extra margin */
     white-space: nowrap; /* prevent wrapping of each link */
   }
