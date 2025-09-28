@@ -238,7 +238,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 5px;          /* smaller spacing between links */
+    gap: 10px;          /* smaller spacing between links */
     flex-wrap: wrap;    /* allow wrapping if needed */
     justify-content: flex-start; /* align links to logo */
     margin-left: 10px;
