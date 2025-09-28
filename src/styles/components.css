@@ -244,7 +244,7 @@
     flex-direction: row;         /* horizontal links */
     justify-content: flex-end;
     align-items: center;
-    margin: 0;
+    margin-left: 10%;
     width: auto;
   }
 
