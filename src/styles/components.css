@@ -222,7 +222,7 @@
 
 /* Mobile screens (≤768px) */
 @media (max-width: 768px) {
- header {
+ .header {
     flex-direction: row;
     justify-content: flex-start; /* all items start from left */
     align-items: center;
