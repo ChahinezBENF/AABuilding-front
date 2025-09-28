@@ -235,16 +235,15 @@
   }
 
   .header nav {
-    flex: 0 0 auto;              
-    display: flex;
-    flex-direction: row;         
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0;
-    gap: 2px;      /* spacing between links */
-    margin-left: 5px;  /* move nav closer to logo */
-    
-  }
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow-x: auto;    /* allow scrolling if too wide */
+  gap: 4px;
+  margin: 0;
+  -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+}
 
   .header nav a {
     margin: 0 2px;   /* less margin */
