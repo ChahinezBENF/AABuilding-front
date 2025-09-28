@@ -558,34 +558,44 @@ font-size: 3rem;
   /* //////// */
   .services-grid {
     display: flex;
-    flex-direction: column; /* stack cards vertically */
-    align-items: center;    /* center horizontally */
-    gap: 30px;              /* space between cards */
-    padding: 20px 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 0;
   }
 
   .service-card {
-    width: 180px;           /* circle width */
-    height: 180px;          /* circle height */
+    width: 180px;
+    height: 180px;
     padding: 15px;
-    border-radius: 50%;     /* ensure perfect circle */
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: visible;
+  }
+
+  .service-card::before {
+    inset: 0;
+    border-radius: 50%;
   }
 
   .service-card .icon {
     font-size: 2.5rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .service-card h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
   }
 
   .service-card p {
-    font-size: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.2;
   }
-
-  .service-card::before {
-    inset: -8px;
-  }
+  
 
 }
