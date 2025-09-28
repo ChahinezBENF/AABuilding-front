@@ -241,7 +241,7 @@
     justify-content: flex-start;
     align-items: center;
     margin: 0;
-    gap: 4px;      /* smaller spacing */
+    gap: 2px;      /* smaller spacing */
   }
 
   .header nav a {
