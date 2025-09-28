@@ -222,33 +222,35 @@
 
 /* Mobile screens (≤768px) */
 @media (max-width: 768px) {
- .header {
-    flex-direction: row;        /* keep row layout */
-    justify-content: space-between;
+   .header {
+    flex-direction: row;          /* force row */
+    justify-content: space-between; 
     align-items: center;
     padding: 10px 20px;
   }
 
   .header .logo {
-    margin: 0;                  /* no auto centering */
+    flex: 0 0 auto;              /* stay left */
   }
 
   .header .logo img {
-    height: 50px;               /* a bit smaller for mobile */
+    height: 50px; 
     margin: 0;
   }
 
   .header nav {
+    flex: 1 0 auto;              /* stay right */
     display: flex;
-    flex-direction: row;        /* keep links in a row */
+    flex-direction: row;         /* horizontal links */
     justify-content: flex-end;
-    width: auto;
+    align-items: center;
     margin: 0;
+    width: auto;
   }
 
   .header nav a {
+    margin: 0 10px;              /* spacing between links */
     font-size: 1rem;
-    margin: 0 10px;             /* space between links */
   }
 
   .footer {
