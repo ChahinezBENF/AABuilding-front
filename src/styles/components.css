@@ -245,8 +245,8 @@
   }
 
   .header nav a {
-    margin: 0 3px;   /* less margin */
-    font-size: 0.7rem; /* smaller text */
+    margin: 0 2px;   /* less margin */
+    font-size: 0.65rem; /* smaller text */
   }
 
   .footer {
