@@ -534,4 +534,16 @@ font-size: 3rem;
     grid-template-columns: 1fr;
     gap: 20px;
   }
+
+  .affiliations .logos {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; /* center logos */
+    gap: 15px;               /* smaller, fixed gap */
+  }
+
+  .affiliations img {
+    max-height: 80px;        /* adjust size for small screens */
+    margin-bottom: 10px;     /* space between rows */
+  }
 }
