@@ -222,35 +222,33 @@
 
 /* Mobile screens (≤768px) */
 @media (max-width: 768px) {
- .header {
-    flex-direction: row;          
-    justify-content: space-between; 
+   .header {
+    flex-direction: row;
+    justify-content: flex-start; /* all items start from left */
     align-items: center;
-    padding: 8px 15px;
+    padding: 8px 10px;           /* reduce padding */
   }
 
   .header .logo img {
     height: 35px;   /* smaller logo */
-    margin: 0;
+    margin-right: 10px; /* space between logo and nav */
   }
 
   .header nav {
-  flex: 0 0 auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  overflow-x: auto;    /* allow scrolling if too wide */
-  gap: 4px;
-  margin: 0;
-  -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
-}
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;          /* smaller spacing between links */
+    flex-wrap: wrap;    /* allow wrapping if needed */
+    justify-content: flex-start; /* align links to logo */
+    margin: 0;
+  }
 
-.header nav {
-  flex-wrap: wrap;
-  gap: 4px;
-  font-size: 0.7rem;
-}
-
+  .header nav a {
+    font-size: 0.75rem; /* smaller text */
+    margin: 0;           /* no extra margin */
+    white-space: nowrap; /* prevent wrapping of each link */
+  }
 
 
   .footer {
