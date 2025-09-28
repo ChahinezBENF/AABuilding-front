@@ -565,8 +565,8 @@ font-size: 3rem;
   }
 
   .service-card {
-    width: 220px;
-    height: 220px;
+    width: 420px;
+    height: 420px;
     padding: 15px;
     border-radius: 50%;
     display: flex;
@@ -589,7 +589,7 @@ font-size: 3rem;
 
   .service-card h3 {
     font-size: 1.1rem;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
   }
 
   .service-card p {
