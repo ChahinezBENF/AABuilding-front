@@ -539,13 +539,12 @@ font-size: 3rem;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center; /* center logos */
-    gap: 15px;               /* smaller, fixed gap */
+    gap: 20px;               /* smaller, fixed gap */
   }
 
   .affiliations img {
     max-height: 30px;        /* adjust size for small screens */
     margin-bottom: 8px;     /* space between rows */
-    gap: 5px;
   }
 
   .affiliations h2{
@@ -553,6 +552,6 @@ font-size: 3rem;
   }
 
   .inspection-image img{
-    max-height: 160px; 
+    height: 300px; 
   }
 }
