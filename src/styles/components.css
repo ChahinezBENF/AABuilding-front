@@ -241,7 +241,7 @@
     gap: 5px;          /* smaller spacing between links */
     flex-wrap: wrap;    /* allow wrapping if needed */
     justify-content: flex-start; /* align links to logo */
-    margin: 0;
+    margin-left: 10px;
   }
 
   .header nav a {
