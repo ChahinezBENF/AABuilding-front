@@ -191,9 +191,9 @@
     padding: 10px 20px;
   }
 
-  .header nav a {
-    font-size: 1.2rem;
-    margin: 10px;
+   .header nav a {
+    font-size: 1rem;  /* slightly smaller */
+    margin: 8px;
   }
 
   .footer {
@@ -230,7 +230,7 @@
   }
 
   .header .logo img {
-    height: 40px;   /* smaller logo */
+    height: 35px;   /* smaller logo */
     margin: 0;
   }
 
@@ -241,12 +241,12 @@
     justify-content: flex-end;
     align-items: center;
     margin: 0;
-    gap: 8px;      /* smaller spacing */
+    gap: 6px;      /* smaller spacing */
   }
 
   .header nav a {
-    margin: 0 5px;   /* less margin */
-    font-size: 0.9rem; /* smaller text */
+    margin: 0 4px;   /* less margin */
+    font-size: 0.8rem; /* smaller text */
   }
 
   .footer {
