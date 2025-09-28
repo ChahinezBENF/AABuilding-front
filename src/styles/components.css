@@ -248,12 +248,10 @@
 .header nav {
   flex-wrap: wrap;
   gap: 4px;
+  font-size: 0.7rem;
 }
 
-  .header nav a {
-    margin: 0 2px;   /* less margin */
-    font-size: 0.65rem; /* smaller text */
-  }
+
 
   .footer {
     flex-direction: column;
