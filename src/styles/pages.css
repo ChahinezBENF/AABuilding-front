@@ -539,7 +539,7 @@ font-size: 3rem;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center; /* center logos */
-    gap: 20px;               /* smaller, fixed gap */
+    gap: 25px;               /* smaller, fixed gap */
   }
 
   .affiliations img {
@@ -552,6 +552,35 @@ font-size: 3rem;
   }
 
   .inspection-image img{
-    height: 300px; 
+    height: 350px; 
+  }
+
+  .services-grid {
+    justify-content: center;
+    gap: 15px; /* smaller gap between cards */
+  }
+
+  .service-card {
+    width: 140px;       /* smaller diameter */
+    height: 140px;      /* smaller diameter */
+    padding: 10px;      /* reduce padding */
+    margin-bottom: 15px;
+  }
+
+  .service-card .icon {
+    font-size: 2rem;    /* smaller icon */
+    margin-bottom: 20px;
+  }
+
+  .service-card h3 {
+    font-size: 1rem;    /* adjust title */
+  }
+
+  .service-card p {
+    font-size: 0.85rem; /* adjust text */
+  }
+
+  .service-card::before {
+    inset: -6px;         /* smaller spinning border */
   }
 }
