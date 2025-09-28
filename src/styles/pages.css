@@ -545,6 +545,7 @@ font-size: 3rem;
   .affiliations img {
     max-height: 30px;        /* adjust size for small screens */
     margin-bottom: 8px;     /* space between rows */
+    gap: 5px;
   }
 
   .affiliations h2{
@@ -552,6 +553,6 @@ font-size: 3rem;
   }
 
   .inspection-image img{
-    max-height: 100px; 
+    max-height: 160px; 
   }
 }
