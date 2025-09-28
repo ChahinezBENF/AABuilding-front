@@ -231,7 +231,7 @@
 
   .header .logo img {
     height: 35px;   /* smaller logo */
-    margin-right: 10px; /* space between logo and nav */
+    margin-right: 5px; /* space between logo and nav */
   }
 
   .header nav {
