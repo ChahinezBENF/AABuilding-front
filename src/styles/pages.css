@@ -550,4 +550,8 @@ font-size: 3rem;
   .affiliations h2{
     font-size: 1.3rem;
   }
+
+  .inspection-image img{
+    max-height: 100px; 
+  }
 }
