@@ -230,7 +230,7 @@
   }
 
   .header .logo img {
-    height: 35px;   /* smaller logo */
+    height: 35px;   
     margin-right: 10px; /* space between logo and nav */
   }
 
@@ -238,14 +238,14 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 4px;          /* smaller spacing between links */
+    gap: 5px;          /* smaller spacing between links */
     flex-wrap: wrap;    /* allow wrapping if needed */
     justify-content: flex-start; /* align links to logo */
     margin: 0;
   }
 
   .header nav a {
-    font-size: 0.65rem; /* smaller text */
+    font-size: 0.7rem; /* smaller text */
     margin: 0;           /* no extra margin */
     white-space: nowrap; /* prevent wrapping of each link */
   }
