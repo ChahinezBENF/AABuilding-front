@@ -37,18 +37,27 @@ export default function Contact() {
 
         {/* Right: Form */}
         <form className="contact-form">
-          <label>
-            Name <span>*</span>
+          <label className="label-text">
+            <span className="label-inline">
+            Name <span className="required">*</span>
+            </span>
             <input type="text" name="name" required />
+            
           </label>
-          <label>
-            Phone number <span>*</span>
+          <label className="label-text">
+            <span className="label-inline">
+            Phone number <span className="required">*</span>
+            </span>
             <input type="text" name="phone" required />
           </label>
-          <label>
-            Email <span>*</span>
+
+          <label className="label-text">
+            <span className="label-inline">
+            Email <span className="required">*</span>
+            </span>
             <input type="email" name="email" required />
           </label>
+          
           <label>
             Message
             <textarea name="message"></textarea>

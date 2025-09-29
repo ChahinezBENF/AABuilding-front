@@ -492,8 +492,9 @@ font-size: 3rem;
 .contact-info {
   flex: 1;
   min-width: 280px;
-  font-size: 1rem;
-  line-height: 1.8;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin-left: 2%;
 }
 
 .contact-info h2 {
@@ -507,12 +508,18 @@ font-size: 3rem;
   display: flex;
   flex-direction: column;
   gap: 15px;
+  margin-right: 2%;
 }
 
 .contact-form label {
   display: flex;
   flex-direction: column;
   font-size: 0.95rem;
+}
+
+.contact-form .required {
+  color: red;
+  margin-left: 4px; /* space between text and star */
 }
 
 .contact-form input,
@@ -707,8 +714,34 @@ font-size: 3rem;
     line-height: 1.2;
   }
 
-   .contact-section {
+  /* ////////// */
+  .contact-map {
+    width: 100%;     /* full width */
+    height: 350px;   /* smaller height for phones */
+    margin: 20px auto;
+  }
+
+  .contact-section {
     flex-direction: column;
+    padding: 20px;
+    gap: 25px;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .contact-form button {
+    font-size: 0.95rem;
+    padding: 10px;
   }
 
 
