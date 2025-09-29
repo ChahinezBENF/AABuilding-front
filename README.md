@@ -39,7 +39,9 @@ AABuilding-front/
 │ ├── assets/ # Images 
 │ ├── components/ # Reusable UI components
 │ │ ├── Footer.jsx
-│ │ └── Header.jsx
+│ │ ├── Header.jsx
+│ │ ├── ServicesCard.jsx
+│ │ └── WorkCards.jsx
 │ ├── pages/ # Website pages
 │ │ ├── About.jsx
 │ │ ├── Contact.jsx
@@ -56,6 +58,7 @@ AABuilding-front/
 │
 │── index.html
 │── package.json
+│── static.json
 │── vite.config.js
 └── README.md
 ```
