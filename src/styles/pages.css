@@ -606,7 +606,8 @@ font-size: 3rem;
   .hero,
   .about-hero,
   .services-hero,
-  .work-hero {
+  .work-hero,
+  .contact-hero {
     height: 400px;
     text-align: center;
     padding: 15px;
@@ -615,14 +616,16 @@ font-size: 3rem;
   .hero-text,
   .about-hero-text,
   .services-hero-text,
-  .work-hero-text {
+  .work-hero-text,
+  .contact-hero-text {
     margin: 0;
   }
 
   .hero-text h1,
   .about-hero-text h1,
   .services-hero-text h1,
-  .work-hero-text h1 {
+  .work-hero-text h1,
+  .contact-hero-text h1 {
     font-size: 2rem;
   }
 
@@ -716,8 +719,8 @@ font-size: 3rem;
 
   /* ////////// */
   .contact-map {
-    width: 100%;     /* full width */
-    height: 350px;   /* smaller height for phones */
+    width: 80%;     
+    height: 300px;   /* smaller height for phones */
     margin: 20px auto;
   }
 
