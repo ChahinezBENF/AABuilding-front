@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/pages.css";
-import aboutHero from "../assets/about-hero.jpg"; // replace with your actual image
-import aboutWorker from "../assets/about-worker.jpg"; // replace with your actual image
+import aboutHero from "../assets/about-hero.jpg"; 
+import aboutWorker from "../assets/about-worker.jpg";
 import { FaTools, FaClipboardList, FaHardHat, FaBuilding, FaDraftingCompass } from "react-icons/fa";
 import { MdEngineering } from "react-icons/md";
 
